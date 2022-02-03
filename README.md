@@ -14,16 +14,22 @@ This application generates a professional and clean README file for any project.
 * [Questions](#questions)
 
 ## Installation
-To install this application go through the following steps. 1. Open or clone the repository to VSC. 2. Make sure you have inquirer downloaded. In the terminal run npm install inquirer. 3. Run node index.js. Then simply input your project details.
+To install this application go through the following steps. 
+1. Open or clone the repository to VSC. 
+2. Make sure you have inquirer downloaded. In the terminal run npm install inquirer. 
+3. Run node index.js. Then simply input your project details.
 
 ## Usage
 While running node index.js in the terminal you will be prompted to input your project details. For instance, if the prompt asks what is the name of your project. Type in the project name and hit enter. Keep going for each question until finished. A visual example and video demo can be seen below for more help. 
+![alt text](media/2022-02-03.png) 
+
+Demo: https://watch.screencastify.com/v/wCYm01U5B0sQ8wbZkDPf
 
 ## License
-this application uses MIT license 
+This application uses MIT license 
 
 ## Contributing
-If you are looking to add a contribution to this project you can visit this site for information:[Contributor Covenant](https://www.contributor-covenant.org/)
+If you are looking to add a contribution to this project you can visit this site for information: [Contributor Covenant](https://www.contributor-covenant.org/)
 
 ## Tests
 There are currently no tests to run on this application
