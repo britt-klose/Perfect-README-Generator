@@ -35,7 +35,7 @@ function renderLicenseSection(license) {
     return ""
   }else {
     return`## License
-this application uses ${license} license `
+This application uses ${license} license `
   }
 }
 
