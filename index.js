@@ -23,27 +23,31 @@ const promptUser = () => {
          // WHEN I am prompted for information about my application repository
         // THEN a high-quality, professional README.md is generated with the title of my project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
                  type: 'input',
-                 message: 'What is the description of your project?',
+                 message: 'Write a description of your project (what, why, & how).',
                  name: 'description',
              },
              {
+        //steps needed to install project
                  type: 'input',
                  message: 'What are the installation intructions?',
                  name: 'installation',
              },
              {
+        //Give instructions and examples(screenshots) for use
                  type: 'input',
                  message: 'What is the usage information?',
                  name: 'usage',
              },
              {
+        //instructions for how others can contribute
+        //[Contributor Covenant](https://www.contributor-covenant.org/)
                  type: 'input',
                  message: 'What are the contribution guidelines?',
                  name: 'contributing',
              },
              {
                 type: 'input',
-                message: 'Input the test instructions.',
+                message: 'Input how to run tests.',
                 name: 'tests',
             },
         // WHEN I choose a license for my application from a list of options
@@ -84,15 +88,7 @@ const promptUser = () => {
              if (err) {
                  console.log(err);
              }
-             console.log('Sucess! We did it!')
+             console.log('Sucess! Your Readme is ready!')
          })
  })
  
-
-//Create a .gitignore file and include node_modules/ and .DS_Store/ so that your node_modules directory isn't tracked or uploaded to GitHub. Be sure to create your .gitignore file before installing any npm dependencies.
-
-//Make sure that your repo includes a package.json with the required dependencies. You can create one by running npm init when you first set up the project, before installing any dependencies.
-
-//User Story:=================================================
-// WHEN I click on the links in the Table of Contents
-    // THEN I am taken to the corresponding section of the README
