@@ -51,9 +51,9 @@ ${data.description}
 
 * [Installation](#installation)
 * [Usage](#usage)
+${renderLicenseLink(data.license)}
 * [Contributing](#contributing)
 * [Tests](#tests)
-${renderLicenseLink(data.license)}
 * [Questions](#questions)
 
 ## Installation
@@ -62,18 +62,19 @@ ${data.installation}
 ## Usage
 ${data.usage}
 
+${renderLicenseSection(data.license)}
+
 ## Contributing
 ${data.contributing}
 
 ## Tests
 ${data.tests}
 
-${renderLicenseSection(data.license)}
-
 ## Questions
-${data.username}
 
-For any additional questions feel free to reach out to me via email at ${data.email}
+For any additional questions or issues, you can reach out to me 
+via email at ${data.email}
+Otheriwise fee free to further view my work on my github page at [${data.username}](https://github.com/${data.username}/).
 `;
 }
 
