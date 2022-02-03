@@ -34,6 +34,8 @@ const promptUser = () => {
              },
              {
         //Give instructions and examples(screenshots) for use
+        //https://watch.screencastify.com/v/wCYm01U5B0sQ8wbZkDPf
+        //![alt text](media/2022-02-03.png)
                  type: 'input',
                  message: 'What is the usage information?',
                  name: 'usage',
